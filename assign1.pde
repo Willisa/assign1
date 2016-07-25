@@ -31,16 +31,9 @@ void setup() {
   image(treasure,c,d);
   c = floor(random(60,580));
   d = floor(random(60,420));
-  image(hp,0,0);
-  fill(#ff0000);
-  rectMode(CORNERS);
-  rect(10,0,e,30);
   e = floor(random(10,206));
   
-  
-  
 }
-
 
 void draw() { 
   image( bg2, x1, 0 );
